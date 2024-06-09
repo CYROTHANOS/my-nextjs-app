@@ -1,0 +1,58 @@
+.featuresSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  width: 70%;
+}
+
+.featuresSection .bgBlurRed {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.headings {
+  margin-bottom: 20px;
+}
+
+.headings .h4 {
+  font-size: 18px;
+  color: #ff5555;
+  font-weight: 600;
+}
+
+.headings .h2 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.infoSection li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.featuresListItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.featuresListItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: default;
+}
+
+.infoSection p,
+.itemWhite p {
+  font-size: 18px;
+  color: rgba(168, 137, 137, 0.533);
+}
+
+.imgContainer:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}

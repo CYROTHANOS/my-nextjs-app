@@ -1,0 +1,63 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  font-size: 20px;
+  margin: auto;
+  padding: 2rem 1rem;
+  gap: 2rem;
+  transition: background-color 0.3s, height 0.3s;
+}
+
+.nav.scrolled {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 60px;
+}
+
+.logo {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  flex-grow: 1;
+  gap: 1.5rem;
+}
+
+.nav li {
+  cursor: pointer;
+}
+
+.nav li:hover {
+  color: #f55;
+}
+
+.homeLiItem {
+  color: #f55;
+  font-weight: 700;
+}
+
+.nav .homeLiItem:hover {
+  color: #ffb923;
+}
+
+.btn {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 12px 38px;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #f55;
+  transform: scale(1.05);
+}

@@ -1,0 +1,57 @@
+.advantagesSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 70%;
+  position: relative;
+}
+
+.advantages {
+  margin: 40px auto;
+}
+
+.advantages .infoSection {
+  margin-right: 40px;
+}
+
+.advantages .headings {
+  margin-bottom: 20px;
+}
+
+.advantages .headings .h4 {
+  font-size: 18px;
+  color: #ff5555;
+  font-weight: 600;
+}
+
+.advantages .headings .h2 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.advantages .featuresListItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.advantages .featuresListItem img {
+  width: 40px;
+  height: 40px;
+}
+
+.advantages .featuresList p {
+  font-size: 18px;
+  color: #0008;
+}
+
+.imgContainer:hover {
+  top: 400px;
+  left: 400px;
+  scale: 1.1;
+  transition: 0.5s;
+}
+.advantages .bgBlurRed {
+  position: absolute;
+}

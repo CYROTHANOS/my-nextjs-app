@@ -1,0 +1,38 @@
+.faqSection {
+  width: 70%;
+  margin: 64px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.h2 {
+  font-weight: 800;
+  font-size: 50px;
+}
+.faqItem {
+  padding: 10px 38px;
+  gap: 0;
+}
+
+.faqItem h2 {
+  font-size: 30px;
+  font-weight: 1000;
+}
+
+.faqItem p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.itemRed {
+  color: #ffffff;
+  background-color: #f55;
+  border-radius: 8px;
+}
+
+.itemWhite {
+  color: #000;
+  background-color: #eeecec;
+  border-radius: 8px;
+}

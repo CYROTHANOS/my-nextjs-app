@@ -1,0 +1,49 @@
+.adSection {
+  color: white;
+  background-image: url(/assets/ad-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70%;
+  margin: 100px auto;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.h2 {
+  font-size: 45px;
+  font-weight: 1000;
+}
+
+.adSection .left {
+  padding-left: 4vw;
+  margin: 8vw 0;
+}
+
+.adSection p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.adSection .btnWhite {
+  display: flex;
+  align-items: center;
+  padding: 15px 28px;
+  gap: 10px;
+  background: white;
+  color: #000;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  margin-top: 6%;
+  border-radius: 7px;
+}
+
+.adSection .btnWhite:hover {
+  background: #de0808;
+  scale: 1.05;
+  transition: 0.3s;
+}
+
+.adSection .right img {
+  max-width: 100%;
+}

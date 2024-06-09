@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+@media (max-width: 750px) {
+  .ribbon {
+    display: none;
+  }
+
+  .faq-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .nav ul {
+    display: none;
+  }
+
+  .imgContainer {
+    display: none;
+  }
+
+  .hero .heroText {
+    font-size: 2em;
+  }
+
+  .bgBlurRed,
+  .bgBlurYellow {
+    display: none;
+  }
+
+  .featuresSection .imgContainer {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero {
+    margin: auto;
+  }
+
+  .adSection .right {
+    display: none;
+  }
+
+  .imgContainer {
+    display: none;
+  }
+}
+
+@media (max-width: 1500px) {
+  .footerContent {
+    display: grid;
+    gap: 0;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
